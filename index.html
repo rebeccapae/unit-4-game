@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Link to the CSS style and reset file -->
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Special+Elite" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class = "container">
+        <!-- Heading and Image -->
+        <h1>Crystals Collector Game</h1>
+        <img id = "pink-crystal" src="assets/images/pink-crystal.jpg" alt="pink-crystal">
+        <!-- Game Rules -->
+        <div class="section">
+            <p class = "sub-headers">Game Rules</p><br>
+                <ol type = "1">
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points towards your total score.</li>
+                    <li>You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</li>
+                    <li>The value of each crystal is hidden from you until you click on it.</li>
+                    <li>Each time when the game starts, the game will change the values of each crystals.</li>
+                </ol>
+        </div>
+        <!-- Random Number -->
+        <div class="section">
+            <p class="sub-headers">Target Score</p><br>
+            <div class="random-number" id = "random-number"></div>
+            <div class="random-number" id = "score-count"></div>
+        </div>
+        <!-- Crystal Buttons -->
+        <div class="section">
+            <p class="sub-headers">Crystal Buttons</p><br>
+            <button class="crystal-button" id = "b1">Button1</button>
+            <button class="crystal-button" id = "b2">Button2</button>
+            <button class="crystal-button" id = "b3">Button3</button>
+            <button class="crystal-button" id = "b4">Button4</button>
+        </div>
+         <!-- User Score -->
+         <div class="section">
+                <p class="sub-headers">Total Score</p><br>
+                <div class="random-number" id = "user-score"></div>
+            </div>
+    </div>
+
+    <!-- Link to J-Query -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
