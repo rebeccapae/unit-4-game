@@ -12,7 +12,7 @@ body {
     padding: 5%;
     border: 3px solid;
     width: auto;
-    height: auto%;
+    height: auto;
     font-family: 'Special Elite', cursive;
     
 }
@@ -45,22 +45,15 @@ h1 {
     padding-bottom: 10px;
 }
 
-.random-number {
-    background-color: rgb(190, 229, 238);
-    display: inline-block;
-    width: 300px;
-    height: 200px;
-}
-
 #score-count {
     background-color: rgb(141, 214, 243);
     right: 0;
     float: right;
 }
 
-.crystal-button {
+.crystal-image {
     width: 100px;
-    height: 50px;
+    height: auto;
     margin: 25px;
 }
 
@@ -70,4 +63,5 @@ h1 {
     font-size: 150px;
     text-align: center;
     margin: 15px;
+    display: inline-block;
 }
