@@ -43,6 +43,7 @@ h1 {
 
 .section {
     padding-bottom: 10px;
+    
 }
 
 #score-count {
@@ -51,7 +52,11 @@ h1 {
     float: right;
 }
 
-.crystal-image {
+#crystal-buttons {
+    text-align: center;
+}
+
+.crystal-image {  
     width: 100px;
     height: auto;
     margin: 25px;
@@ -63,5 +68,4 @@ h1 {
     font-size: 150px;
     text-align: center;
     margin: 15px;
-    display: inline-block;
 }
