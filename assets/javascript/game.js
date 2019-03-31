@@ -35,7 +35,7 @@ $(document).ready(function() {
     // To assign a random number from the buttonRandomNumber array to each button
     function assignRandomNumbers(){
         for (var i = 0; i < 4; i++) {
-            var crystalButtons = $("<img src=../assets/images/blue-crystal-buttons.png>");
+            var crystalButtons = $("<img src = assets/images/blue-crystal-buttons.png>");
             crystalButtons.addClass("crystal-image");
             crystalButtons.attr("data-crystalvalue", buttonRandomNumber[i]);
             crystalButtons.text(buttonRandomNumber[i]);
